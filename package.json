@@ -5,19 +5,27 @@
   "description": "",
   "scripts": {
     "dev": "webpack-dev-server",
-    "_build": "webpack",
-    "start": "serve --single dist",
+    "build": "bsb -make-world && webpack",
+    "start": "node ./server.js",
     "test": "jest"
   },
+  "now": {
+    "alias": "relekang.xyz",
+    "type": "docker",
+    "files": [
+      "dist",
+      "lib",
+      "src",
+      "test",
+      "bsconfig.json",
+      "package.json",
+      "yarn.lock",
+      "webpack.config.js"
+    ]
+  },
   "jest": {
-    "moduleFileExtensions": [
-      "re",
-      "js",
-      "ml"
-    ],
-    "testMatch": [
-      "<rootDir>/test/*.re"
-    ],
+    "moduleFileExtensions": ["re", "js", "ml"],
+    "testMatch": ["<rootDir>/test/*.re"],
     "transform": {
       ".(re|ml)": "bs-loader"
     }
