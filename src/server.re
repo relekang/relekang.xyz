@@ -15,6 +15,11 @@ let renderPage element => {
 
 let app = express ();
 
+App.useOnPath
+  app
+  path::"/"
+  (Express.Static.make "dist" (Express.Static.defaultOptions ()) |> Express.Static.asMiddleware);
+
 App.get app path::"/" @@
 Middleware.from (
   fun req res _next =>
