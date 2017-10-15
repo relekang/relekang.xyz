@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> render matches snapshot 1`] = `
+<a
+  className={
+    Object {
+      "data-css-hh2ow": "",
+    }
+  }
+  href="http://relekang.xyz"
+>
+  o/
+</a>
+`;

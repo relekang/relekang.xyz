@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing /> render matches snapshot 1`] = `
+<div
+  className={
+    Object {
+      "data-css-hb30g7": "",
+    }
+  }
+>
+  <h1>
+    Rolf tries to learn reasonml
+  </h1>
+  <p>
+    I am trying to learn reasonml, and on the I build a bunch of small projects. These is just a list of them, some are open-source some are not.
+  </p>
+  <ul
+    className={
+      Object {
+        "data-css-11ts0tf": "",
+      }
+    }
+  >
+    <li>
+      <strong
+        className={
+          Object {
+            "data-css-1vrgzf1": "",
+          }
+        }
+      >
+        caretaker
+        <span
+          className={
+            Object {
+              "data-css-1fnulsa": "",
+            }
+          }
+        >
+          <Landing
+            reasonProps={
+              Array [
+                Array [
+                  "Landing",
+                  [Function],
+                  Array [
+                    0,
+                  ],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  0,
+                  [Function],
+                  0,
+                ],
+              ]
+            }
+          />
+        </span>
+      </strong>
+      <p>
+        A tiny script written in reason that will send you nice notifications to take care of you.
+      </p>
+    </li>
+    <li>
+      <strong
+        className={
+          Object {
+            "data-css-1vrgzf1": "",
+          }
+        }
+      >
+        wo
+        <span
+          className={
+            Object {
+              "data-css-1fnulsa": "",
+            }
+          }
+        >
+          <Landing
+            reasonProps={
+              Array [
+                Array [
+                  "Landing",
+                  [Function],
+                  Array [
+                    0,
+                  ],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  0,
+                  [Function],
+                  0,
+                ],
+              ]
+            }
+          />
+        </span>
+      </strong>
+      <p>
+        A tiny app for a 6 minute strength program.
+      </p>
+    </li>
+    <li>
+      <strong
+        className={
+          Object {
+            "data-css-1vrgzf1": "",
+          }
+        }
+      >
+        2048
+        <span
+          className={
+            Object {
+              "data-css-1fnulsa": "",
+            }
+          }
+        >
+          <Landing
+            reasonProps={
+              Array [
+                Array [
+                  "Landing",
+                  [Function],
+                  Array [
+                    0,
+                  ],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  0,
+                  [Function],
+                  0,
+                ],
+              ]
+            }
+          />
+        </span>
+      </strong>
+      <p>
+        A implementation of the 2048 game.
+      </p>
+    </li>
+    <li>
+      <strong
+        className={
+          Object {
+            "data-css-1vrgzf1": "",
+          }
+        }
+      >
+        relekang.xyz
+        <span
+          className={
+            Object {
+              "data-css-1fnulsa": "",
+            }
+          }
+        >
+          <Landing
+            reasonProps={
+              Array [
+                Array [
+                  "Landing",
+                  [Function],
+                  Array [
+                    0,
+                  ],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  0,
+                  [Function],
+                  0,
+                ],
+              ]
+            }
+          />
+          <Landing
+            reasonProps={
+              Array [
+                Array [
+                  "Landing",
+                  [Function],
+                  Array [
+                    0,
+                  ],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  0,
+                  [Function],
+                  0,
+                ],
+              ]
+            }
+          />
+        </span>
+      </strong>
+      <p>
+        A simple react-reason site with serverside rendering.
+      </p>
+    </li>
+  </ul>
+</div>
+`;

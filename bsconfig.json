@@ -10,11 +10,13 @@
   "bs-dev-dependencies": ["bs-jest", "bs-react-test-renderer"],
   "sources": [
     {
-      "dir": "src"
+      "dir": "src",
+      "subdirs": true
     },
     {
       "dir": "test",
-      "type": "dev"
+      "type": "dev",
+      "subdirs": true
     }
   ],
   "namespace": true

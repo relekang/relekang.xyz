@@ -24,14 +24,8 @@
     ]
   },
   "jest": {
-    "moduleFileExtensions": [
-      "re",
-      "js",
-      "ml"
-    ],
-    "testMatch": [
-      "<rootDir>/test/*.re"
-    ],
+    "moduleFileExtensions": ["re", "js", "ml"],
+    "testMatch": ["<rootDir>/test/**/*.re"],
     "transform": {
       ".(re|ml)": "bs-loader"
     }

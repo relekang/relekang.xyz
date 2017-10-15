@@ -1,5 +1,7 @@
 open Express;
 
+open Data;
+
 type glamorOutput = Js.t {. html : string, css : string};
 
 external renderStatic : (unit => string) => glamorOutput = "" [@@bs.module "glamor/server"];
