@@ -30,6 +30,14 @@ Middleware.from (
     }
 );
 
+App.get app path::"/api" @@
+Middleware.from (
+  fun _req res _next => {
+    let data = Array.of_list (List.map json_of_project projects);
+    Response.sendJson res Json.Encode.(array data)
+  }
+);
+
 let onListen port e =>
   switch e {
   | exception (Js.Exn.Error e) =>

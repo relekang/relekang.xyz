@@ -6,7 +6,7 @@
   "name": "relekang.xyz",
   "reason": { "react-jsx": 2 },
   "bsc-flags": ["-bs-super-errors"],
-  "bs-dependencies": ["reason-react", "bs-glamor", "bs-express"],
+  "bs-dependencies": ["reason-react", "bs-glamor", "bs-express", "bs-json"],
   "bs-dev-dependencies": ["bs-jest", "bs-react-test-renderer"],
   "sources": [
     {

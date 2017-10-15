@@ -8,6 +8,23 @@ type project = {
   description: string
 };
 
+let json_of_link link =>
+  switch link {
+  | App url => Json.Encode.(object_ [("type", string "app"), ("url", string url)])
+  | Code url => Json.Encode.(object_ [("type", string "code"), ("url", string url)])
+  };
+
+let json_of_project (project: project) => {
+  let links = Array.of_list (List.map json_of_link project.links);
+  Json.Encode.(
+    object_ [
+      ("name", string project.name),
+      ("description", string project.description),
+      ("links", array links)
+    ]
+  )
+};
+
 let projects = [
   {
     name: "caretaker",
